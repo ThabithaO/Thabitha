@@ -59,7 +59,9 @@ for suichan in range(it):
         b -= alpha * i
 
 print(w,b)
-test([4.5,1],w,b) #Harusnya 'Red'
+test([4.5,1],w,b) 
+
+#Harusnya 'Red'
 #Masalah yang muncul: 
 #(1) kalo output blue muncul exp overflow [DONE]
 #(2) Bias tidak keupdate
